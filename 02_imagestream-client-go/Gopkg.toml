@@ -1,0 +1,23 @@
+[[override]]
+  name = "github.com/openshift/client-go"
+  branch = "release-4.3"
+
+[[override]]
+  name = "github.com/openshift/api"
+  branch = "release-4.3"
+
+[[override]]
+  name = "k8s.io/apimachinery"
+  version = "kubernetes-1.12.6"
+
+[[override]]
+  name = "k8s.io/client-go"
+  version = "kubernetes-1.12.6"
+
+[[override]]
+  name = "k8s.io/api"
+  version = "kubernetes-1.12.6"
+
+[prune]
+  go-tests = true
+  unused-packages = true
